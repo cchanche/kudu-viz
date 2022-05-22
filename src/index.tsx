@@ -5,6 +5,7 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import CssBaseline from '@mui/material/CssBaseline';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
@@ -12,6 +13,8 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
+    {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+      <CssBaseline />
       <App />
     </Provider>
   </React.StrictMode>

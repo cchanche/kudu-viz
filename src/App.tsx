@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
+import { Typography } from "@mui/material";
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <span>
-          <span>Learn </span>
+          <Typography>Learn </Typography>
           <a
             className="App-link"
             href="https://reactjs.org/"
